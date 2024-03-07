@@ -9,7 +9,6 @@ import time
 from datetime import datetime
 from twilio.rest import Client
 
-st.title("Face Recognition Attendance System")
 engine = pyttsx3.init()
 rate = engine.getProperty('rate')
 voices=engine.getProperty('voices')
